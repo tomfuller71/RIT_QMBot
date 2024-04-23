@@ -1,0 +1,30 @@
+{
+    "Q1": {
+        "student_1": "Yes, the fundamental transition corresponds to a wavelength in the IR region of the electromagnetic spectrum.",
+        "student_2": "No it is out of range of IR spectroscopy.",
+        "student_3": "Yes, hydrogen is still absorbing and emitting energies.",
+        "student_4": "To observe an H gas transition with IR a high-powered IR needs to be used since its transition energy is high.",
+        "student_5": "Yes, because the fundamental transition occurs at 2301 nm for the process.",
+        "student_6": "No, there is no change in dipole moment.",
+        "student_7": "No, because hydrogen gas does not have a dipole. A dipole is required to view it in spectroscopy.",
+        "student_8": "No, to observe the transition using IR spectroscopy the molecule needs to possess a permanent dipole that will allow the molecule to interact with oscillating electromagnetic spectrum. Hydrogen does not have a dipole because it’s a Homo diatomic molecule.",
+        "student_9": "Yes, because it will limit energy that can be picked up on IR.",
+        "student_10": "You cannot see the transition. This is because it lacks the dipole moment necessary for IR to pick up a signal.",
+        "student_11": "No, there is only one degree of freedom, so 1J value.",
+        "student_12": "You cannot observe the fundamental transition for hydrogen as it doesn’t absorb enough IR to show up."
+    },
+    "Q2": {
+        "student_1": "Two wave functions of the same system must be orthogonal as the system would exist in multiple conditions if it did not.",
+        "student_2": "They must be orthonormal because of the Heisenberg uncertainty principle.",
+        "student_3": "For the probability description to work out and be coherent or make sense. Must cancel out at inverse energies",
+        "student_4": "The wave functions of the same system must be orthogonal so they can’t exist at the same time.",
+        "student_5": "They must be orthogonal because a particle cannot be in two places or states at the same time. it is the mathematical way of proving this. Therefore, it must be true for two wave functions in the same system.",
+        "student_6": "If they are not orthogonal, then there would be two wave functions operate, occupying the same space which is impossible. The wave function must not be interfered with by the other.",
+        "student_7": "A system cannot be in two quantum levels at once so the probability must be zero.",
+        "student_8": "They must be orthogonal because if they had cannot equal the same thing twice.",
+        "student_9": "Two wave functions of the same system must be orthogonal because a particle cannot be described as being in two different places at once.",
+        "student_10": "Must describe all atoms.",
+        "student_11": "Two wave functions cannot occupy the same space so their overlap must be zero, the definition of orthogonality.",
+        "student_12": "The probability of an electron being in both places must be zero."
+    }
+}
