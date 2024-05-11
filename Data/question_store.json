@@ -29,16 +29,170 @@
         ]
     },
     "Q3": {
-        "question": "Given, $E_v = h(v+1/2)$ explain the terms in this equation. Explain how this equation is developed, invoking our 5 fundamental rules of quantum mechanics. (You are not expected to do an explicit mathematical derivation).",
+        "question": "Given, $E_v = h\\\\nu(v+1/2)$ explain the terms in this equation. Explain how this equation is developed, invoking our 5 fundamental rules of quantum mechanics. (You are not expected to do an explicit mathematical derivation).",
         "concepts_tested": [
             "Recognition of eigenvalue for simple harmonic oscillator.",
-            "Knowledge of five key rules in the application of quantum mechanics to physical systems. 1) Classical Description: Define the system's energy using classical physics. 2) Quantum Operators: Replace each physical observable (e.g., momentum, position) with its corresponding quantum mechanical operator. 3) Hamiltonian Development: Construct the Hamiltonian operator from the kinetic and potential energies, using the operators from rule two. 4)Schrödinger Equation: Insert the Hamiltonian into the Schrödinger equation and solve for the wavefunction, which serves as the eigenfunction. 5) Boundary Conditions: Adjust the solution to satisfy the system's boundary conditions, ensuring all probabilities sum to unity"
+            "Knowledge of five key rules in the application of quantum mechanics to physical systems. 1) Classical Description: Define the system's energy using classical physics. 2) Quantum Operators: Replace each physical observable (e.g., momentum, position) with its corresponding quantum mechanical operator. 3) Hamiltonian Development: Construct the Hamiltonian operator from the kinetic and potential energies, using the operators from rule two. 4)Schrödinger Equation: Insert the Hamiltonian into the Schrödinger equation and solve for the wavefunction, which serves as the eigenfunction. 5) Boundary Conditions: Adjust the solution to satisfy the system's boundary conditions, ensuring all probabilities sum to unity."
         ],
-        "good_answer": "In the equation, $E_v = h(v+1/2)$ we can describe the terms as follows: $E_v$ is the eigenvalue for energy for the simple harmonic oscillator as described with quantum mechanics, $h$ is Planck's Constant, $nu$ is the frequency of the oscillation of the simple harmonic oscillator, $v$  is the quantum number that results mathematically from the solution to the Schrödinger equation for the harmonic oscillator.\nIn our application of quantum mechanics, we follow five key rules:  \n- Classical Description: Define the system's energy using classical physics.\n- Quantum Operators: Replace each physical observable (e.g., momentum, position) with its corresponding quantum mechanical operator.\n- Hamiltonian Development: Construct the Hamiltonian operator from the kinetic and potential energies, using the operators from rule two.\n- Schrödinger Equation: Insert the Hamiltonian into the Schrödinger equation and solve for the wavefunction, which serves as the eigenfunction.\n- Boundary Conditions: Adjust the solution to satisfy the system's boundary conditions, ensuring all probabilities sum to unity. \nThe wavefunction, when applied to the Schrödinger equation, determines the total energy Ev representing the eigenvalue of the system.",
+        "good_answer": "In the equation, $E_v = h\\\\nu(v+1/2)$ we can describe the terms as follows: $E_v$ is the eigenvalue for energy for the simple harmonic oscillator as described with quantum mechanics, $h$ is Planck's Constant, $nu$ is the frequency of the oscillation of the simple harmonic oscillator, $v$ is the quantum number that results mathematically from the solution to the Schrödinger equation for the harmonic oscillator.\\nIn our application of quantum mechanics, we follow five key rules:  \\n- Classical Description: Define the system's energy using classical physics.\\n- Quantum Operators: Replace each physical observable (e.g., momentum, position) with its corresponding quantum mechanical operator.\\n- Hamiltonian Development: Construct the Hamiltonian operator from the kinetic and potential energies, using the operators from rule two.\\n- Schrödinger Equation: Insert the Hamiltonian into the Schrödinger equation and solve for the wavefunction, which serves as the eigenfunction.\\n- Boundary Conditions: Adjust the solution to satisfy the system's boundary conditions, ensuring all probabilities sum to unity. \\nThe wavefunction, when applied to the Schrödinger equation, determines the total energy Ev representing the eigenvalue of the system.",
         "common_mistakes": [
             "The student wrongly connects the energy of the photon with the energy of the system to which we are providing a quantum mechanical description.",
             "The student does not recognize the equation above is the eigenvalue associated with the simple harmonic oscillator. In that case they are unable to connect the rest of the problem to the simple harmonic oscillator.",
             "The student’s answer is incomplete because they only describe one or two of the rules, for example they may describe the kinetic and potential energy classically, but they neglect to describe that quantum mechanical operators need to be introduced for momentum and for position, respectively."
+        ]
+    },
+    "Q4": {
+        "question": "This Question is about the Variational Principle. An approximate wavefunction that describes an atomic orbital contains an adjustable parameter, a. and a constant, C. With this approximate ψ, the expectation value of the total energy, E, is found to be of the form ⟨E⟩=2a-Ca^(1/2 ), where C is a positive combination of physical constants. Use the variational principle to find the best value of a in terms of C. You may find it useful to restate the variational principle and to remember how it could be applied mathematically using simple calculus. (2pts)",
+        "concepts_tested": [
+            "Variational principle",
+            "The average energy will be a function of an adjustable parameter, which is also contained in the wavefunction.",
+            "The lowest energy will occur as a function of the parameter and can be found when we recognize that at the lowest point in the function there is a turning point so the derivative of the average energy will be equal to zero."
+        ],
+        "good_answer": "",
+        "common_mistakes": [
+            "The student may not understand that the variational principle is a method to find the best possible wavefunction for a system.",
+            "The student may not understand that the variational principle is based on the idea that the expectation value of the energy is minimized when the wavefunction is the best possible approximation to the true wavefunction."
+        ]
+    },
+    "Q7_41A": {
+        "question": "An electron is orbiting in a circular path around a nucleus with a constant velocity. The radius of the orbit is $r = 5.0 \\\\times 10^{-11}$ meters, and the velocity of the electron is $v = 2.2 \\\\times 10^6$ meters per second. Assume the fundamental charge of the electron is $e = 1.6 \\\\times 10^{-19}$ coulombs. **Part A:** Calculate the current $I$ generated by the electron in its orbit.",
+        "concepts_tested": [
+            "The motion of an electric charge around a loop generates a magnetic moment equal to the current multiplied by the area of the loop",
+            "Ability to calculate area of a loop",
+            "Current is the flow of charge per unit time. Therefore it can be determined from the velocity of the electron and by the fundamental charge of that electron"
+        ],
+        "good_answer": [
+            "Time for one complete orbit (period) is given by $T = \\\\frac{2\\\\pi r}{v}$.",
+            "Plugging in the values: $T = \\\\frac{2\\\\pi \\\\times 5.0 \\\\times 10^{-11} \\\\text{ m}}{2.2 \\\\times 10^6 \\\\text{ m/s}} \\\\approx 1.43 \\\\times 10^{-16} \\\\text{ s}$",
+            "Current $I$ is defined as charge per unit time, so $I = \\\\frac{e}{T}$.",
+            "$I = \\\\frac{e}{T} = \\\\frac{1.6 \\\\times 10^{-19} \\\\text{ C}}{1.43 \\\\times 10^{-16} \\\\text{ s}} \\\\approx 1.12 \\\\times 10^{-3} \\\\text{ A}$"
+        ],
+        "common_mistakes": [
+            "Too many significant figures in the answer",
+            "Dividing the radius by the velocity to get the incorrect time",
+            "Using the wrong formula to calculate the time for one complete orbit"
+        ]
+    },
+    "Q7_41B": {
+        "question": "An electron is orbiting in a circular path around a nucleus with a constant velocity. The radius of the orbit is $r = 5.0 \\times 10^{-11}$ meters, and the velocity of the electron is $v = 2.2 \\times 10^6$ meters per second. Assume the fundamental charge of the electron is $e = 1.6 \\times 10^{-19}$ coulombs. Compute the magnetic moment $m$ generated by the electron's orbit.",
+        "concepts_tested": [
+            "Given the radius and the velocity of the electron, must be able to derive the magnetic moment",
+            "time for one complete orbit can be calculated as the circumference of the orbit divided by the velocity",
+            "Orbiting electrons have an intrinsic magnetic moment associated with that orbit",
+            "Current = charge per time",
+            "Time = distance divided by velocity",
+            "The student should be able to derive an expression for magnetic moment as a function of charge, radius or orbit and velocity"
+        ],
+        "good_answer": [
+            "Area_calculation :Area $A$ of the loop is $A = \\\\pi r^2$. Magnetic moment $\\\\mu$ is calculated as $\\\\mu = I \\\\times A$.",
+            "calculations $ A = \\\\pi r^2 = \\\\pi \\\\times (5.0 \\\\times 10^{-11} \\\\text{ m})^2 \\\\approx 7.85 \\\\times 10^{-21} \\\\text{ m}^2 $",
+            "$ m = I \\times A = 1.12 \\\\times 10^{-3} \\\\text{ A} \\\\times 7.85 \\\\times 10^{-21} \\\\text{ m}^2 \\\\approx 8.80 \\\\times 10^{-24} \\\\text{ A m}^2 $"
+        ],
+        "common_mistakes": [
+            "Too many significant figures in the answer",
+            "Using the wrong formula"
+        ]
+    },
+    "Q7_41C": {
+        "question": "An electron is orbiting in a circular path around a nucleus with a constant velocity. The radius of the orbit is $r = 5.0 \\\\times 10^{-11}$ meters, and the velocity of the electron is $v = 2.2 \\times 10^6$ meters per second. Assume the fundamental charge of the electron is $e = 1.6 \\times 10^{-19}$ coulombs. Compute the magnetic moment $m$ generated by the electron's orbit. Derive an equation for the angular momentum $\\mathbf{L}$ of the electron, as a vector quantity in terms of the position vector and the velocity vector of the electron. If the electron is orbiting anticlockwise in the $xy$ plane, state the direction of the angular momentum vector and how it relates to the plane of the electron's orbit. Calculate the vector for the angular momentum of the electron, given that the electron's position is $\\mathbf{r}=r\\mathbf{i}$ and its velocity is $\\mathbf{v}=v\\mathbf{j}$. ",
+        "concepts_tested": [
+            "angular momentum in comparison to linear momentum",
+            "right hand rule for demonstrating that angular momentum is perpendicular to thge plane of the orbit",
+            "the cross product of vectors",
+            "the relationship between angular momentum and magnetic moment",
+            "The magnetic dipole is a vector quantity since it has a magnitude and direction depending on the angular velocity. Hence the magnetic moment vector can be determined from the position vector, which will be the radius of the orbit pointing in the direction from the origin to the electron’s position and the velocity vector",
+            "The momentum vector is the product of the mass and the velocity vector",
+            "Since the angular momentum is perpendicular to the plane of motion, then the resulting magnetic moment is also perpendicular to the plane of motion.",
+            "angular_momentum_formula $ \\\\mathbf{L} $ is the cross product of the position vector $\\\\mathbf {r} $ and the momentum vector $ \\\\mathbf{p} $.",
+            "magnetic_moment_formula $ \\\\mathbf{\\mu} = \\\\frac{-e\\\\mathbf{L}}{2m}$, considering the electron’s charge and mass."
+        ],
+        "good_answer": [
+            "Angular momentum vector $\\mathbf{L}$ is the cross product of position vector $\\mathbf{r}$ and momentum vector $\\mathbf{p} = m \\mathbf{v}$, so $\\mathbf{L} = \\mathbf{r} \\times \\mathbf{p}$.",
+            "position_vector $\\\\mathbf{r} = r\\\\mathbf{i}$",
+            "velocity_vector $\\\\mathbf{v} = v\\\\mathbf{j}$",
+            "momentum_vector $\\\\mathbf{p} = m\\\\mathbf{v} = mv\\\\mathbf{j}$",
+            "angular_momentum $\\\\mathbf{L} = r\\\\mathbf{i} \\\\times mv\\\\mathbf{j} = rmv\\\\mathbf{k}$",
+            "orientation The direction of $\\\\mathbf{L}$ is perpendicular to the plane of orbit (along $\\\\mathbf{k}$ axis) because the cross product of vectors in the plane produces a vector perpendicular to that plane."
+        ],
+        "common_mistakes": [
+            "Too many significant figures in the answer",
+            "Using the wrong formula",
+            "Not recognizing that the magnetic moment is a vector quantity",
+            "Not recognizing that the magnetic moment is perpendicular to the plane of the orbit",
+            "mistaking dipole moment for magnetic moment"
+        ]
+    },
+    "Q7_41D": {
+        "question": "An electron is orbiting in a circular path around a nucleus with a constant velocity. The radius of the orbit is $r = 5.0 \\times 10^{-11}$ meters, and the velocity of the electron is $v = 2.2 \\times 10^6$ meters per second. Assume the fundamental charge of the electron is $e = 1.6 \\times 10^{-19}$ coulombs. Compute the magnetic moment $m$ generated by the electron's orbit. Derive an equation for the angular momentum $\\mathbf{L}$ of the electron, as a vector quantity in terms of the position vector and the velocity vector of the electron. If the electron is orbiting anticlockwise in the $xy$ plane, state the direction of the angular momentum vector and how it relates to the plane of the electron's orbit. Calculate the vector for the angular momentum of the electron, given that the electron's position is $\\mathbf{r}=r\\mathbf{i}$ and its velocity is $\\mathbf{v}=v\\mathbf{j}$. Use the angular momentum derived in Part C to calculate the magnetic moment vector $\\mathbf{m}$, for the electron, given its mass $m_e = 9.11 \\times 10^{-31}$ kg. Annotate how you know that the magnetic moment is in fact a vector $\\mathbf{\\mathbf{m}}$.",
+        "concepts_tested": [
+            "angular momentum in comparison to linear momentum",
+            "right hand rule for demonstrating that angular momentum is perpendicular to thge plane of the orbit",
+            "the cross product of vectors",
+            "the relationship between angular momentum and magnetic moment",
+            "The magnetic dipole is a vector quantity since it has a magnitude and direction depending on the angular velocity. Hence the magnetic moment vector can be determined from the position vector, which will be the radius of the orbit pointing in the direction from the origin to the electron’s position and the velocity vector",
+            "The momentum vector is the product of the mass and the velocity vector",
+            "Since the angular momentum is perpendicular to the plane of motion, then the resulting magnetic moment is also perpendicular to the plane of motion.",
+            "angular_momentum_formula $ \\mathbf{L} $ is the cross product of the position vector $\\mathbf {r} $ and the momentum vector $ \\mathbf{p} $.",
+            "magnetic_moment_formula $ \\mathbf{\\mu} = \\frac{-e\\mathbf{L}}{2m}$, considering the electron’s charge and mass."
+        ],
+        "good_answer": [
+            "magnetic_moment_vector_calculation - Use the angular momentum derived in Part C to calculate the magnetic moment vector $\\mathbf{m}$ for the electron, given its mass $m_e = 9.11 \\times 10^{-31}$ kg.",
+            "formula $\\mathbf{m} = \\frac{-e}{2m} \\mathbf{L}$",
+            "Substituting the values, we get $\\mathbf{m} = \\frac{-e}{2m} rmv\\mathbf{k}$.",
+            "vector_properties: The magnetic moment vector $\\mathbf{m}$ is perpendicular to the plane of motion, aligning with $\\mathbf{L}$, and its direction is determined by the right-hand rule. Note that the negative sign here is associated with the negative charge on the electron."
+        ],
+        "common_mistakes": [
+            "Too many significant figures in the answer",
+            "Using the wrong formula",
+            "Not recognizing that the magnetic moment is a vector quantity",
+            "Not recognizing that the magnetic moment is perpendicular to the plane of the orbit",
+            "mistaking dipole moment for magnetic moment"
+        ]
+    }, 
+    "Q7_42": {
+        "question": "Now we add a magnetic field, where $\\mathbf{B}$ is the strength of the field in Teslas. $\\mathbf{B}$ is defined as $\\mathbf{F}=q(\\mathbf{v} \\times \\mathbf{B})$, where $\\mathbf{F}$ is the force (a vector) acting on charge $q$, which is moving with velocity $\\mathbf{v}$ in a magnetic field of strength $\\mathbf{B}$. We also now introduce the idea that potential energy $V$ is: $V =- \\mathbf{m} \\cdot \\mathbf{B}$. Why do we use a dot product for this product of two vectors? Why is there a minus sign in this equation?",
+        "concepts_tested": [
+            "angular momentum in comparison to linear momentum",
+            "right hand rule for demonstrating that angular momentum is perpendicular to thge plane of the orbit",
+            "the cross product of vectors",
+            "the relationship between angular momentum and magnetic moment",
+            "The magnetic dipole is a vector quantity since it has a magnitude and direction depending on the angular velocity. Hence the magnetic moment vector can be determined from the position vector, which will be the radius of the orbit pointing in the direction from the origin to the electron’s position and the velocity vector",
+            "The momentum vector is the product of the mass and the velocity vector",
+            "Since the angular momentum is perpendicular to the plane of motion, then the resulting magnetic moment is also perpendicular to the plane of motion.",
+            "angular_momentum_formula $ \\mathbf{L} $ is the cross product of the position vector $\\mathbf {r} $ and the momentum vector $ \\mathbf{p} $.",
+            "magnetic_moment_formula $ \\mathbf{\\mu} = \\frac{-e\\mathbf{L}}{2m}$, considering the electron’s charge and mass."
+        ],
+        "good_answer": "The dot product is used to calculate the component of one vector along the direction of another. In the context of the potential energy equation, $$V = -\\mathbf{m} \\cdot \\mathbf{B}$$, the dot product determines how much of the magnetic moment vector $\\mathbf{m}$ is aligned with the magnetic field vector $\\mathbf{B}$. This alignment contributes to the potential energy, which depends directly on the cosine of the angle between the two vectors, thus quantifying the degree of alignment.",
+        "common_mistakes": [
+            "random assignment of negative sign without actually explaining why it is there"
+        ]
+    }, 
+    "Q7_43": {
+        "question": [
+            "Let's assume the applied field is in the $z$ direction, and: $V =- m_z B_z$ For the electron we had: $\\\\mathbf{m} = \\\\frac{-e}{2m_e} \\\\mathbf{L}$ So $m_z=\\\\frac{-eL_z}{2m_e}=-\\\\frac{V}{B_z}$ So $V=\\\\frac{eB_zL_z}{2m_e}$ And this is the potential energy for when there is an external magnetic field applied to an orbiting electron. Recall that to solve the Schrodinger Equation for the Hydrogen atom we built up a Hamiltonian Operator, which we will call $\\hat{H_0}$, that had a kinetic energy term and a potential energy term.",
+            "How do we now modify the energy of our Hydrogen Atom, in classical terms? Describe in words what each of the three terms will represent?",
+            "What does our Hamiltonian operator, $\\hat{H}$ now become in terms of $\\hat{H_0}$ and $\\hat{L}_z$?",
+            "Write out the Schrodinger equation that would be obtained for our hydrogen atom in the absence of an external magnetic field using $\\hat{H_0}$. You may use equation 7.12 from the text book to help you remember the eigenvalue.",
+            "Given what you already know about the solution to the eigenvalue equation for $\\hat{L}_z\\psi_{nlm_l}(r,\\theta,\\phi)$ what does the energy of our hydrogen atom become, in an applied external magnetic field, where we can simplify things by defining: $\\beta_B=\\frac{e\\hbar}{2m_e}$"
+        ],
+        "concepts_tested": [
+            "The effect of an external magnetic field on the energy of a hydrogen atom",
+            "The Hamiltonian operator for a hydrogen atom in the presence of an external magnetic field",
+            "building the hamiltonian operator based on the classical description for the system of interest and then finding appropriate quantum mechanical operators to replace the classical observables",
+            "The energy levels of a hydrogen atom based on the eigenvalues from the schrodinger equation absent an external magnetic field",
+            "solving the eigenvalue equation for the angular momentum operator $\\hat{L}_z$, and recognizing that the wavefunction remains an eignefunction because the operator for L_z commutes with the Hamiltonian operator"
+        ],
+        "good_answer": [
+            "Part_A To account for the magnetic field, the energy of the hydrogen atom must include the magnetic interaction term. The modified energy consists of the original kinetic and potential energy terms from $\\\\hat{H_0}$ plus an additional term for the interaction between the magnetic moment of the electron and the magnetic field. These terms represent: 1. Kinetic Energy: Energy due to the motion of the electron. 2. Coulomb Potential Energy: Energy due to the electrostatic potential between the electron and the nucleus. 3. Magnetic Potential Energy: Energy arising from the interaction of the electron's magnetic moment with the external magnetic field.",
+            "Part_B The Hamiltonian $\\hat{H}$ now includes the Zeeman term due to the magnetic field: $\\\\hat{H} = \\\\hat{H_0} + \\\\frac{eB_z}{2m_e} \\\\hat{L}_z$. This term represents the interaction between the orbital angular momentum and the magnetic field along the z-axis.",
+            "Part_C The Schrodinger equation in the absence of an external magnetic field is: $\\\\hat{H_0} \\\\psi_{nlm_l}(r,\\\\theta,\\\\phi) = -\\\\frac{m_e e^4}{8\\\\epsilon_0^2h^2n^2} \\\\psi_{nlm_l}(r,\\\\theta,\\\\phi)$. Where $\\\\psi_{nlm_l}(r,\\\\theta,\\\\phi)$ is the wave function of the electron, $E$ is the energy eigenvalue, and $\\\\hat{H_0}$ includes only the kinetic and Coulomb potential terms.",
+            "Part_D In the presence of an external magnetic field, specifically aligned along the z-axis, the energy of the hydrogen atom can be described by modifying the Hamiltonian to include the interaction between the electron’s magnetic moment and the magnetic field. Hence the Schrodinger equation is now: $\\\\hat{H}\\\\psi_{nlm_l}(r,\\\\theta,\\\\phi) = \\\\hat{H_0}\\\\psi_{nlm_l}(r,\\\\theta,\\\\phi) + \\\\frac{\\\\beta_B}{\\\\hbar} B_z \\\\hat{L}_z\\\\psi_{nlm_l}(r,\\\\theta,\\\\phi)$. Hence $\\\\hat{H}\\\\psi_{nlm_l}(r,\\\\theta,\\\\phi) = (-\\\\frac{m_e e^4}{8\\\\epsilon_0^2h^2n^2} +\\\\beta_Bm_lB_z)\\\\psi_{nlm_l}(r,\\\\theta,\\\\phi)$. So $E =-\\\\frac{m_e e^4}{8\\\\epsilon_0^2h^2n^2} +\\\\beta_Bm_lB_z$. This additional term represents the interaction energy between the magnetic moment associated with the electron's orbital angular momentum and the external magnetic field. The sign and magnitude of $m_l$ determine the direction and strength of this interaction relative to the magnetic field. The overall effect is that the energy levels of the hydrogen atom are split into multiple levels, depending on the value of $m_l$, which quantifies the component of the angular momentum along the direction of the magnetic field. This splitting is a direct manifestation of the Zeeman effect, which can lead to observable spectral lines corresponding to transitions between these split energy levels."
+        ],
+        "common_mistakes": [
+            "student does not recall ability to generate schrodinger equation from classical description of the system",
+            "student does not recognize that the Hamiltonian operator must be modified to account for the magnetic field",
+            "student does not recognize that the energy levels of the hydrogen atom are split in the presence of an external magnetic field",
+            "student cannot connect back to eigenvalue equation involving angular momentum in z direction"
         ]
     }
 }

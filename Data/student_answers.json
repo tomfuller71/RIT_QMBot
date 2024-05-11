@@ -26,5 +26,32 @@
         "student_10": "Must describe all atoms.",
         "student_11": "Two wave functions cannot occupy the same space so their overlap must be zero, the definition of orthogonality.",
         "student_12": "The probability of an electron being in both places must be zero."
+    },
+    "Q3": {
+        "student_1": "h is the hamiltonian operator",
+        "student_2": "h is the planck constant, v is the velocity and E_v is the corresponding energy. $\nu$ is the frequency of the system. it is developed by describing the energy to transition between quantum numbers classically. $h\\\\nu$ is the energy classically. Then it is substituted into the Schrodinger equation and a value of plus half is added to the energy level since $\\\\nu$ is equal to ±1/2 and it is a vibrational energy change.",
+        "student_3": "$E_v$ is the energy of the system; h$\nu$ describes the 'packets' of energy; frequency observed and planck's constant are the coefficient to the parenthesized term $(v+1/2)$, where v=0,1,2,... to show that vthese energies are quantized , that is equally spaced. This equation uses the classical description of a harmonic oscillator, substituting quantum operators and using the schrodinger equation",
+        "student_4": "These terms result in quantized solutions of energy. $\\\\nu$ is frequency. $v$ is speed? schrodinger equation for harmonic oscillator",
+        "student_5": "$h=$ planck's constant, $v$ is frequency, $E_v$ is energy and $\\\\nu$ is the energy level. This equation is developed by the first few rules. The system’s energy needs to be explained classically. Then operators need to be introduced. After this, the Schrodinger equation can be built and solved with the follow up of boundary conditions.",
+        "student_6": "$h=$ planck's constant, $(v+1/2)$ is the vibrational level term, $E_v$ is energy at vibrational level $v$ and $\\\\nu$ is the wavelength of light emitted.It is found by defining the kinetic and potential energy of an oscillator and plugging that into the Schrodinger equation.",
+        "student_7": "$h=$ planck's constant, $(v+1/2)$ is the vibrational level term, $E_v$ is energy at vibrational level $v$ and $\\\\nu$ is the frequency. You start with the classical physics equation. Put in operators and convert to quantum mechanics. Input in Schrodinger equation. Solve equation. Apply the boundary conditions.",
+        "student_8": "$h$ is planck's constant, $E_v$ is energy, v is quantum number and $\\\\nu$ is the frequency. The equation is based on a classical physics equation and variables that can be observed or replaced with quantum numbers. The Schrodinger equation is then built and solved, followed by boundary conditions being added.",
+        "student_9": "$h$ is planck's constant, $E_v$ is energy at vibrational level $v$ and $\\\\nu$ is the frequency. This equation was derived classically from Hooke’s law. The H ̂ was used. A Schrodinger equation.",
+        "student_10": "$h\nu$ is the energy, v is the velocity of the wave function eigenvalue standardized at $1/2$ because it can't be zero. First $E=h\\\\nu$",
+        "student_11": "$h$ is planck's constant, $E_v$ is energy, v is quantum number and $\nu$ is the frequency. It is developed by describing the energy to transition between quantum numbers classically. hν is the energy classically. Then it is substituted into the Schrodinger equation and a value of plus half is added to the energy level since ν is equal to ±1/2 and it is a vibrational energy change."
+    },
+    "Q7_43": {
+        "student_1": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_2": "modify the energy because the magnetic field forces the hydrogen atom to heat up",
+        "student_3": "modify the energy because a photon is absorbed by the hydrogen atom. We then need to add the photon energy to the equation for the energy in the schrodinger equation",
+        "student_4": "",
+        "student_5": "",
+        "student_6": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_7": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_8": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_9": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_10": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_11": "The energy of the photon is equal to the energy difference between the two levels.",
+        "student_12": "The energy of the photon is equal to the energy difference between the two levels."
     }
 }
