@@ -40,18 +40,48 @@
         "student_10": "$h\nu$ is the energy, v is the velocity of the wave function eigenvalue standardized at $1/2$ because it can't be zero. First $E=h\\\\nu$",
         "student_11": "$h$ is planck's constant, $E_v$ is energy, v is quantum number and $\nu$ is the frequency. It is developed by describing the energy to transition between quantum numbers classically. hν is the energy classically. Then it is substituted into the Schrodinger equation and a value of plus half is added to the energy level since ν is equal to ±1/2 and it is a vibrational energy change."
     },
+    "Q7_41A": {
+        "student_1": "I think current is just the amount of charge passing a point, so it's probably just e because that's the charge of an electron, right? So, I = 1.6 x 10^-19 coulombs.",
+        "student_2": "Current is like, charge over time? So, I = e/T, and T is... umm, maybe just the velocity or something? So, I = 1.6 x 10^-19 / 2.2 x 10^6?",
+        "student_3": "Current is when electrons move, and since one electron is moving here, it's just the electron's charge, e.",
+        "student_4": "Current is in amperes, which is coulombs per second. The electron goes around once per second, right? So it's just 1.6 x 10^-19 A?"
+    },
+    "Q7_41B": {
+        "student_1": "Magnetic moment is like magnet stuff So maybe it's just the charge times the velocity. So, m=e×vm=e×v or something.",
+        "student_2": "I think the magnetic moment is something to do with magnets? Maybe you multiply the charge by the radius because the radius is where the electron is? So, m=e x rm=e x r?",
+        "student_3": "I'm not sure what a magnetic moment is, but maybe it has to do with the speed of the electron because it's moving? So maybe m=vm=v or m=v×em=v×e?",
+        "student_4": "Isn't the magnetic moment something with loops and current? Maybe it's like the area of the circle times the charge? So, m = pi r^2 x e?"
+    },
+    "Q7_41C": {
+        "student_1": "For the magnetic moment, I think it’s like the charge times the radius, because it's something magnetic and stuff, so m = e x r.",
+        "student_2": "Angular momentum is tricky, but I guess it’s just the velocity times the radius since that sounds right. So, L = v x r.",
+        "student_3": "If it's going anticlockwise, the angular momentum is probably just straight up along the z-axis because it sounds right that it goes upwards.",
+        "student_4": "For the vector, since position is r i and velocity is v j, I think you just add them for angular momentum, like L = r i + v j.",
+        "student_5": "Angular momentum is like, you multiply the position and velocity but I’m not sure how. Maybe it’s L = r x v, and since it's anticlockwise, the direction is probably to the right or left?"
+    },
+    "Q7_41D": {
+        "student_1": "I think the magnetic moment is like current times area, right? So, m = I x A, but I'm not sure how to find I. Maybe it’s just the charge per second, so m = (e / T) x (pi x r^2), but I can't remember how to calculate T.",
+        "student_2": "Angular momentum L should be something with mass, velocity, and radius I think. Maybe it’s L = m_e x v x r, like mass times velocity times radius. Not sure if it's plus or cross product.",
+        "student_3": "The angular momentum is going anticlockwise, so it must be pointing down along the z-axis because it’s opposite the rotation direction, I guess.",
+        "student_4": "To calculate L as a vector, I think you just multiply r and v, so L = r i * v j, which maybe equals r*v. I don't know how to make it a vector from there.",
+        "student_5": "Magnetic moment as a vector, maybe it’s like angular momentum but with the charge involved? So, maybe m = q x L? But I'm not sure how the units work or why it’s a vector.",
+        "student_6": "Using L from before, I think m is something like L divided by mass, so m = L / m_e, but I'm not sure if that's right. It’s a vector because L is a vector, right?"
+    },
+    "Q7_42": {
+        "student_1": "The dot product is used here because it’s the product of two vectors, right? I think we use it because we want to multiply vectors. Not sure why a dot and not a cross.",
+        "student_2": "The minus sign is there because it’s always in these physics formulas to make things negative. Maybe it means the energy is going away or getting less?",
+        "student_3": "We use a dot product because it gives us one number instead of another vector, which is easier to use? And the minus might be there to show the energy is opposite to the magnetic field direction?",
+        "student_4": "I think dot product is used to figure out the alignment of the magnetic moment with the magnetic field, like how parallel they are? The minus sign, maybe it’s because the energy is lower when they line up?",
+        "student_5": "Maybe the dot product is there because we're adding up how much one vector goes into the other? And the minus sign could be just a standard thing in physics to indicate a specific direction?"
+    },
     "Q7_43": {
         "student_1": "The energy of the photon is equal to the energy difference between the two levels.",
         "student_2": "modify the energy because the magnetic field forces the hydrogen atom to heat up",
         "student_3": "modify the energy because a photon is absorbed by the hydrogen atom. We then need to add the photon energy to the equation for the energy in the schrodinger equation",
-        "student_4": "",
-        "student_5": "",
-        "student_6": "The energy of the photon is equal to the energy difference between the two levels.",
-        "student_7": "The energy of the photon is equal to the energy difference between the two levels.",
-        "student_8": "The energy of the photon is equal to the energy difference between the two levels.",
-        "student_9": "The energy of the photon is equal to the energy difference between the two levels.",
-        "student_10": "The energy of the photon is equal to the energy difference between the two levels.",
-        "student_11": "The energy of the photon is equal to the energy difference between the two levels.",
-        "student_12": "The energy of the photon is equal to the energy difference between the two levels."
+        "student_4": "To modify the energy, I think we just add the potential energy to the old energy? So the total energy is like, kinetic energy plus potential energy from the magnetic field, I guess.",
+        "student_5": "The Hamiltonian operator now is the old Hamiltonian plus something with the angular momentum? Maybe \\\\( \\\\hat{H} = \\\\hat{H_0} + \\\\hat{L}_z \\)? I'm not sure what that represents though.",
+        "student_6": "The Schrödinger equation without the magnetic field is just $( \\\\hat{H_0} \\\\psi = E \\\\psi \\)$, right? I think that’s how you write it using the equation from the book.",
+        "student_7": "With the magnetic field, the energy probably includes this $( \\\\beta_B )$ thing because it involves the electron's charge and stuff. So maybe the energy is $( E = \\\\hat{H_0} + \\\\beta_B \\\\hat{L}_z \\\\psi)$? I’m not really sure how it adds up.",
+        "student_8": "We modify the energy by adding the magnetic potential energy, I think? Each term in the Hamiltonian represents a different type of energy: kinetic from $( \\\\hat{H_0} )$ and magnetic from $( \\\\beta_B \\\\hat{L}_z )$. Not sure if that’s right."
     }
 }
