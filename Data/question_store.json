@@ -18,14 +18,14 @@
         "concepts_tested": [
             "Postulates of Quantum Mechanics.",
             "If two different eigenstates correspond to different eigenvalues of the same observable, they must be orthogonal.",
-            "Inner product of Hilbert space being zero reflecting zero probability of transition between two states.",
+            "Integral of product of complex conjugate of wavefunction for state n and wavefuntion for state m, over all space must be zero ",
             "Mutually exclusive states - non-overlapping possible outcomes of a measurement."
         ],
-        "good_answer": "The requirement that two wave functions of the same system must be orthogonal is a direct consequence of the postulates of quantum mechanics. Each wave function represents a possible state of a system, and these states are characterized mathematically by their eigenstates when associated with a particular observable represented by a Hermitian operator. It can be mathematically proven that, at least for a non-degenerate system, that following the postulates the eigenfunctions of a system must be orthonormal and that the inner product of two eigenstates must therefore be zero. In practical terms, if the product between two eigenstates is non-zero, it suggests that the states are overlapping and not entirely distinct. Without the requirement of orthogonality we would not be able to use quantum mechanics to make consistent predictions.",
+        "good_answer": "The requirement that two wave functions of the same system must be orthogonal is a direct consequence of the postulates of quantum mechanics. Each wave function represents a possible state of a system, and these states are characterized mathematically by their eigenstates when associated with a particular observable represented by a Hermitian operator. It can be mathematically proven that, at least for a non-degenerate system, following the postulates, the eigenfunctions of a system must be orthonormal and that the integral of the product of complex conjugate of wavefunction for eigenstate n and wavefuntion for eigenstate m, over all space must therefore be zero.  In practical terms, if the product between two eigenstates is non-zero, it suggests that the states are overlapping and not entirely distinct. Without the requirement of orthogonality we would not be able to use quantum mechanics to make consistent predictions.",
         "common_mistakes": [
-            "The student may not understand that the requirement of orthogonality follows directly from the postulates of quantum mechanics leading to the requirement that the inner product of the eigenstates be zero.",
-            "The student may not understand that the inner product can only be zero if the states are orthogonal.",
-            "The student may mistakenly believe that the need for orthogonality requirement is related to a some physical law (e.g. “an electron cannot be in two state at once”, “a particle cannot be in two places at the same time”) or confusing the mathematical requirement with other unrelated concepts (e.g. Heisenberg's uncertainty principle)."
+            "The student may not understand that the requirement of orthogonality follows directly from the postulates of quantum mechanics leading to the requirement that the integral of the product of complex conjugate of wavefunction for eigenstate n and wavefuntion for eigenstate m, over all space must be zero.",
+            "The student may not understand that the integral of the product of the complex conjugate of the wave function for eigenstate n and the wave function for eigenstate m, over all space must be zero.",
+            "The student may mistakenly confuse this mathematical requirement with other unrelated concepts (e.g. Heisenberg’s uncertainty principle)."
         ]
     },
     "Q3": {

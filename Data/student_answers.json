@@ -68,20 +68,20 @@
         "student_6": "Using L from before, I think m is something like L divided by mass, so m = L / m_e, but I'm not sure if that's right. It’s a vector because L is a vector, right?"
     },
     "Q7_42": {
-        "student_1": "The dot product is used here because it’s the product of two vectors, right? I think we use it because we want to multiply vectors. Not sure why a dot and not a cross.",
-        "student_2": "The minus sign is there because it’s always in these physics formulas to make things negative. Maybe it means the energy is going away or getting less?",
-        "student_3": "We use a dot product because it gives us one number instead of another vector, which is easier to use? And the minus might be there to show the energy is opposite to the magnetic field direction?",
-        "student_4": "I think dot product is used to figure out the alignment of the magnetic moment with the magnetic field, like how parallel they are? The minus sign, maybe it’s because the energy is lower when they line up?",
-        "student_5": "Maybe the dot product is there because we're adding up how much one vector goes into the other? And the minus sign could be just a standard thing in physics to indicate a specific direction?"
+        "student_1": "The dot product is used here because it’s the product of two vectors. I think we use it because we want to multiply vectors.",
+        "student_2": "The minus sign is there because it’s always in these physics formulas to make things negative. It means the energy is going away or getting less",
+        "student_3": "We use a dot product because it gives us one number instead of another vector, which is easier to use. And the minus is there to show the energy is opposite to the magnetic field direction",
+        "student_4": "I think dot product is used to figure out the alignment of the magnetic moment with the magnetic field, like how parallel they are. The minus sign is because the energy is lower when they line up",
+        "student_5": "the dot product is there because we're adding up how much one vector goes into the other. And the minus sign is just a standard thing in physics to indicate a specific direction"
     },
     "Q7_43": {
         "student_1": "The energy of the photon is equal to the energy difference between the two levels.",
         "student_2": "modify the energy because the magnetic field forces the hydrogen atom to heat up",
         "student_3": "modify the energy because a photon is absorbed by the hydrogen atom. We then need to add the photon energy to the equation for the energy in the schrodinger equation",
-        "student_4": "To modify the energy, I think we just add the potential energy to the old energy? So the total energy is like, kinetic energy plus potential energy from the magnetic field, I guess.",
-        "student_5": "The Hamiltonian operator now is the old Hamiltonian plus something with the angular momentum? Maybe \\\\( \\\\hat{H} = \\\\hat{H_0} + \\\\hat{L}_z \\)? I'm not sure what that represents though.",
+        "student_4": "To modify the energy, we just add the potential energy to the old energy. So the total energy is like, kinetic energy plus potential energy from the magnetic field.",
+        "student_5": "The Hamiltonian operator now is the old Hamiltonian plus something with the angular momentum? Maybe \\\\( \\\\hat{H} = \\\\hat{H_0} + \\\\hat{L}_z \\)",
         "student_6": "The Schrödinger equation without the magnetic field is just $( \\\\hat{H_0} \\\\psi = E \\\\psi \\)$, right? I think that’s how you write it using the equation from the book.",
-        "student_7": "With the magnetic field, the energy probably includes this $( \\\\beta_B )$ thing because it involves the electron's charge and stuff. So maybe the energy is $( E = \\\\hat{H_0} + \\\\beta_B \\\\hat{L}_z \\\\psi)$? I’m not really sure how it adds up.",
-        "student_8": "We modify the energy by adding the magnetic potential energy, I think? Each term in the Hamiltonian represents a different type of energy: kinetic from $( \\\\hat{H_0} )$ and magnetic from $( \\\\beta_B \\\\hat{L}_z )$. Not sure if that’s right."
+        "student_7": "With the magnetic field, the energy probably includes this $( \\\\beta_B )$ thing because it involves the electron's charge and stuff. So the energy is $( E = \\\\hat{H_0} + \\\\beta_B \\\\hat{L}_z \\\\psi)$.",
+        "student_8": "We modify the energy by adding the magnetic potential energy. Each term in the Hamiltonian represents a different type of energy: kinetic from $( \\\\hat{H_0} )$ and magnetic from $( \\\\beta_B \\\\hat{L}_z )$."
     }
 }
