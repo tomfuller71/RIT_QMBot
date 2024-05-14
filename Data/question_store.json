@@ -25,7 +25,7 @@
         "common_mistakes": [
             "The student may not understand that the requirement of orthogonality follows directly from the postulates of quantum mechanics leading to the requirement that the integral of the product of complex conjugate of wavefunction for eigenstate n and wavefuntion for eigenstate m, over all space must be zero.",
             "The student may not understand that the integral of the product of the complex conjugate of the wave function for eigenstate n and the wave function for eigenstate m, over all space must be zero.",
-            "The student may mistakenly confuse this mathematical requirement with other unrelated concepts (e.g. Heisenberg’s uncertainty principle)."
+            "The student may mistakenly confuse this mathematical requirement with other unrelated concepts (e.g. Heisenberg's uncertainty principle)."
         ]
     },
     "Q3": {
@@ -42,7 +42,7 @@
         ]
     },
     "Q4": {
-        "question": "This Question is about the Variational Principle. An approximate wavefunction that describes an atomic orbital contains an adjustable parameter, a. and a constant, C. With this approximate ψ, the expectation value of the total energy, E, is found to be of the form ⟨E⟩=2a-Ca^(1/2 ), where C is a positive combination of physical constants. Use the variational principle to find the best value of a in terms of C. You may find it useful to restate the variational principle and to remember how it could be applied mathematically using simple calculus. (2pts)",
+        "question": "This Question is about the Variational Principle. An approximate wavefunction that describes an atomic orbital contains an adjustable parameter, a. and a constant, C. With this approximate ψ, the expectation value of the total energy, E, is found to be of the form ⟨E⟩=2a-Ca^(1/2), where C is a positive combination of physical constants. Use the variational principle to find the best value of a in terms of C. You may find it useful to restate the variational principle and to remember how it could be applied mathematically using simple calculus.",
         "concepts_tested": [
             "Variational principle",
             "The average energy will be a function of an adjustable parameter, which is also contained in the wavefunction.",
